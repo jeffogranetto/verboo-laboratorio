@@ -193,5 +193,65 @@ execucao,cliente,modelo,esforco,grupo,tarefa,estado,passou,conteudo_correto,form
 20261016T174415698078-deepseek-v4.1-flash-low-velocidade-r1-573ddbfc2a,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,19.21305354099968,12.290861124999537,2026-10-16T17:44:15.698902-03:00
 20261016T174415700292-deepseek-v4.1-flash-low-velocidade-r1-bd92e2c8ff,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,18.203939832999822,11.29142950000005,2026-10-16T17:44:15.700895-03:00
 20261016T174440904381-deepseek-v4.1-flash-low-velocidade-r1-ae320c8ba9,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,15.483163375000004,8.557584999999563,2026-10-16T17:44:40.907235-03:00
-20261016T174440904583-deepseek-v4.1-flash-low-velocidade-r1-133e1b488f,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,running,,,,,,2026-10-16T17:44:40.907352-03:00
+20261016T174440904583-deepseek-v4.1-flash-low-velocidade-r1-133e1b488f,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,24.599380375000692,17.6903538330007,2026-10-16T17:44:40.907352-03:00
 20261016T174440909959-deepseek-v4.1-flash-low-velocidade-r1-77a604cb1e,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,12.882014499999968,5.967368208000153,2026-10-16T17:44:40.911677-03:00
+20261016T174511144917-deepseek-v4.1-flash-low-velocidade-r1-a4655c019e,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,12.748061374999452,5.820606708999549,2026-10-16T17:45:11.145834-03:00
+20261016T174511144917-deepseek-v4.1-flash-low-velocidade-r1-fab5115eb3,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,18.277452374999484,11.5258576669994,2026-10-16T17:45:11.145878-03:00
+20261016T174511144949-deepseek-v4.1-flash-low-velocidade-r1-ab79c37b2e,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,30.23758345799979,23.38021658300022,2026-10-16T17:45:11.145871-03:00
+20261016T174511145926-deepseek-v4.1-flash-low-velocidade-r1-db757e6524,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,35.35062375000052,28.435937541000385,2026-10-16T17:45:11.146746-03:00
+20261016T174552457342-deepseek-v4.1-flash-low-velocidade-r2-5455e47af9,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,26.32941716700043,19.4082267090007,2026-10-16T17:45:52.458460-03:00
+20261016T174552457724-deepseek-v4.1-flash-low-velocidade-r2-607a4516fc,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,15.423025707999841,8.493399333000525,2026-10-16T17:45:52.458649-03:00
+20261016T174552458217-deepseek-v4.1-flash-low-velocidade-r2-142ba327b5,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,28.087491666999995,21.171950957999798,2026-10-16T17:45:52.459042-03:00
+20261016T174552458269-deepseek-v4.1-flash-low-velocidade-r2-a8e90dbcc9,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,15.26347375000023,8.340174666000166,2026-10-16T17:45:52.459417-03:00
+20261016T174625705405-deepseek-v4.1-flash-low-velocidade-r2-b0a0aa8ce2,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,14.849716792000436,7.931120167000699,2026-10-16T17:46:25.706249-03:00
+20261016T174625708875-deepseek-v4.1-flash-low-velocidade-r2-49d7127575,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,14.648886250000032,7.733455999999933,2026-10-16T17:46:25.709573-03:00
+20261016T174645865548-deepseek-v4.1-flash-low-velocidade-r2-314a770c45,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,13.765808249999282,6.835396249999576,2026-10-16T17:46:45.866929-03:00
+20261016T174705000394-deepseek-v4.1-flash-low-velocidade-r2-971e1b8d86,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,15.347337291999793,8.437032292000367,2026-10-16T17:47:05.001402-03:00
+20261016T174705008760-deepseek-v4.1-flash-low-velocidade-r2-16214fa60b,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,25.263143083000614,18.239490541000123,2026-10-16T17:47:05.009644-03:00
+20261016T174705008914-deepseek-v4.1-flash-low-velocidade-r2-14849725fc,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,14.679478666999785,7.77413470800002,2026-10-16T17:47:05.009625-03:00
+20261016T174736243573-deepseek-v4.1-flash-low-velocidade-r3-8e62aa3ccc,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,22.142919750000146,15.19872204100011,2026-10-16T17:47:36.244548-03:00
+20261016T174736245767-deepseek-v4.1-flash-low-velocidade-r3-974dd1c675,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,33.13781025000026,26.201378042000215,2026-10-16T17:47:36.246707-03:00
+20261016T174736252710-deepseek-v4.1-flash-low-velocidade-r3-b6a415c55b,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,14.08818274999976,7.165990624999722,2026-10-16T17:47:36.253321-03:00
+20261016T174814534320-deepseek-v4.1-flash-low-velocidade-r3-9e9ce9a67f,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,25.90831295800035,19.012102208000215,2026-10-16T17:48:14.534824-03:00
+20261016T174845770501-deepseek-v4.1-flash-low-velocidade-r3-d703d7cf2b,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,22.120835916999567,15.177887166999426,2026-10-16T17:48:45.771326-03:00
+20261016T174845774276-deepseek-v4.1-flash-low-velocidade-r3-f3476af2cd,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,36.806752999999844,29.887728874999993,2026-10-16T17:48:45.775257-03:00
+20261016T174845774277-deepseek-v4.1-flash-low-velocidade-r3-798477b121,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,37.540924832999735,30.601858957999866,2026-10-16T17:48:45.775301-03:00
+20261016T174845775172-deepseek-v4.1-flash-low-velocidade-r3-67680ab839,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,12.320074125000247,5.377087625000058,2026-10-16T17:48:45.775992-03:00
+20261016T174929093796-deepseek-v4.1-flash-low-velocidade-r3-52d0fbc5ba,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,12.374161083000217,5.451973582999926,2026-10-16T17:49:29.094836-03:00
+20261016T174929101656-deepseek-v4.1-flash-low-velocidade-r3-72b846ad98,verboo,ultra/deepseek-v4.1-flash,low,concurrency,velocidade,ok,True,True,True,13.971196958999826,7.007389084000351,2026-10-16T17:49:29.102306-03:00
+20261016T174948263538-glm-5.3-max-sql-r1-63b71acf60,verboo,ultra/glm-5.3,max,concurrency,sql,ok,True,True,True,185.35901687499972,179.366570917,2026-10-16T17:49:48.264321-03:00
+20261016T175259626894-glm-5.3-max-sql-r1-89844d3a9c,verboo,ultra/glm-5.3,max,concurrency,sql,timeout,,,,240.09400104199995,,2026-10-16T17:52:59.627872-03:00
+20261016T175259633221-glm-5.3-max-sql-r1-d989217514,verboo,ultra/glm-5.3,max,concurrency,sql,ok,True,True,True,130.8723428330004,125.13728425000045,2026-10-16T17:52:59.633932-03:00
+20261016T175259633883-glm-5.3-max-sql-r1-76c7b46bc5,verboo,ultra/glm-5.3,max,concurrency,sql,ok,True,True,True,92.74441320900041,86.96844116700049,2026-10-16T17:52:59.634541-03:00
+20261016T175259634356-glm-5.3-max-sql-r1-78a5f70b52,verboo,ultra/glm-5.3,max,concurrency,sql,ok,True,True,True,189.3149284580004,184.61429145799957,2026-10-16T17:52:59.634858-03:00
+20261016T175705360386-glm-5.3-max-sql-r2-55dc9f5489,verboo,ultra/glm-5.3,max,concurrency,sql,ok,True,True,True,141.96129037500032,136.6970340000007,2026-10-16T17:57:05.361278-03:00
+20261016T175705361134-glm-5.3-max-sql-r2-46ac73b681,verboo,ultra/glm-5.3,max,concurrency,sql,ok,True,True,True,107.20562083300047,102.52539349999915,2026-10-16T17:57:05.361712-03:00
+20261016T175705361983-glm-5.3-max-sql-r2-c53298d6cb,verboo,ultra/glm-5.3,max,concurrency,sql,ok,True,True,True,206.6835388749996,201.94512062500053,2026-10-16T17:57:05.362565-03:00
+20261016T175705361984-glm-5.3-max-sql-r2-b60fa2c553,verboo,ultra/glm-5.3,max,concurrency,sql,timeout,,,,240.07494470799975,,2026-10-16T17:57:05.362581-03:00
+20261016T180111126018-glm-5.3-max-sql-r2-85741c0053,verboo,ultra/glm-5.3,max,concurrency,sql,ok,True,True,True,146.89478625000083,141.9835333329993,2026-10-16T18:01:11.126669-03:00
+20261016T180343239786-deepseek-v4-pro-0813-max-sql-r1-583013caf9,verboo,ultra/deepseek-v4-pro-0813,max,concurrency,sql,ok,True,True,True,50.42687720899994,44.90139804200044,2026-10-16T18:03:43.240794-03:00
+20261016T180439666580-deepseek-v4-pro-0813-max-sql-r1-59add24438,verboo,ultra/deepseek-v4-pro-0813,max,concurrency,sql,ok,True,True,True,46.922581541999534,39.50838612500047,2026-10-16T18:04:39.667681-03:00
+20261016T180439669577-deepseek-v4-pro-0813-max-sql-r1-f8f0aafeb3,verboo,ultra/deepseek-v4-pro-0813,max,concurrency,sql,ok,False,,,48.33355316699999,,2026-10-16T18:04:39.670430-03:00
+20261016T180439671112-deepseek-v4-pro-0813-max-sql-r1-94422a858e,verboo,ultra/deepseek-v4-pro-0813,max,concurrency,sql,ok,True,True,True,112.16195691599933,104.56534229099998,2026-10-16T18:04:39.671803-03:00
+20261016T180439672763-deepseek-v4-pro-0813-max-sql-r1-39cc60b1ea,verboo,ultra/deepseek-v4-pro-0813,max,concurrency,sql,ok,True,True,True,105.98943354200128,98.27114583300136,2026-10-16T18:04:39.673918-03:00
+20261016T180637563604-deepseek-v4-pro-0813-max-sql-r2-2e46a5a928,verboo,ultra/deepseek-v4-pro-0813,max,concurrency,sql,timeout,,,,240.09046037499866,,2026-10-16T18:06:37.566079-03:00
+20261016T180637563604-deepseek-v4-pro-0813-max-sql-r2-4d21fc98e3,verboo,ultra/deepseek-v4-pro-0813,max,concurrency,sql,ok,True,True,True,148.2840802080009,,2026-10-16T18:06:37.566019-03:00
+20261016T180637563604-deepseek-v4-pro-0813-max-sql-r2-8199f8e4c3,verboo,ultra/deepseek-v4-pro-0813,max,concurrency,sql,ok,True,True,True,234.01309475000016,224.25862754099944,2026-10-16T18:06:37.566019-03:00
+20261016T180637565755-deepseek-v4-pro-0813-max-sql-r2-4f9d6652bf,verboo,ultra/deepseek-v4-pro-0813,max,concurrency,sql,timeout,,,,240.08984008300104,,2026-10-16T18:06:37.567225-03:00
+20261016T181043486230-deepseek-v4-pro-0813-max-sql-r2-143abde807,verboo,ultra/deepseek-v4-pro-0813,max,concurrency,sql,client_error,,,,25.767050583001037,,2026-10-16T18:10:43.486902-03:00
+20261016T181120206830-warm-963b8fecac,verboo,ultra/glm-5.3-flash,low,Abertura da sessão persistente,pronto,client_error,,,,33.167653459,,2026-10-16T18:11:20.207177-03:00
+20261016T181120206831-warm-626df449a1,verboo,ultra/glm-5.3-flash,low,Abertura da sessão persistente,pronto,client_error,,,,33.867237667000005,,2026-10-16T18:11:20.207108-03:00
+20261016T181120209144-warm-467a12280f,verboo,ultra/glm-5.3-flash,low,Abertura da sessão persistente,pronto,client_error,,,,40.828829667,,2026-10-16T18:11:20.209377-03:00
+20261016T181120209949-warm-873cd3fdb0,verboo,ultra/glm-5.3-flash,low,Abertura da sessão persistente,pronto,client_error,,,,34.337246332999996,,2026-10-16T18:11:20.210232-03:00
+20261016T181206604394-warm-8aa9515452,verboo,ultra/glm-5.3-flash,low,Abertura da sessão persistente,pronto,client_error,,,,3.9738432500000016,,2026-10-16T18:12:06.604673-03:00
+20261016T181206605026-warm-066ac198ba,verboo,ultra/glm-5.3-flash,low,Abertura da sessão persistente,pronto,client_error,,,,0.5784606670000016,,2026-10-16T18:12:06.605335-03:00
+20261016T181206607878-warm-5061712e22,verboo,ultra/glm-5.3-flash,low,Abertura da sessão persistente,pronto,client_error,,,,2.312311749999999,,2026-10-16T18:12:06.608055-03:00
+20261016T181206608963-warm-7314b03096,verboo,ultra/glm-5.3-flash,low,Abertura da sessão persistente,pronto,client_error,,,,2.0476157500000056,,2026-10-16T18:12:06.609124-03:00
+20261016T181215747509-warm-cc32539f6b,verboo,ultra/deepseek-v4.1-flash,low,Abertura da sessão persistente,pronto,timeout,,,,240.00521379100002,,2026-10-16T18:12:15.747811-03:00
+20261016T181215749187-warm-a40c949843,verboo,ultra/deepseek-v4.1-flash,low,Abertura da sessão persistente,pronto,timeout,,,,240.003834958,,2026-10-16T18:12:15.749439-03:00
+20261016T181215750735-warm-30596ad25b,verboo,ultra/deepseek-v4.1-flash,low,Abertura da sessão persistente,pronto,timeout,,,,240.004274334,,2026-10-16T18:12:15.751045-03:00
+20261016T181215753225-warm-7598038077,verboo,ultra/deepseek-v4.1-flash,low,Abertura da sessão persistente,pronto,timeout,,,,240.00408045799998,,2026-10-16T18:12:15.753487-03:00
+20261016T181621108537-warm-fdafc816de,verboo,ultra/deepseek-v4.1-flash,low,Abertura da sessão persistente,pronto,client_error,,,,25.797171084000013,,2026-10-16T18:16:21.108839-03:00
+20261016T181621108540-warm-977f7de025,verboo,ultra/deepseek-v4.1-flash,low,Abertura da sessão persistente,pronto,client_error,,,,25.802176125000017,,2026-10-16T18:16:21.108817-03:00
+20261016T181621112788-warm-2da489096e,verboo,ultra/deepseek-v4.1-flash,low,Abertura da sessão persistente,pronto,client_error,,,,25.793028332999995,,2026-10-16T18:16:21.112995-03:00
+20261016T181621116662-warm-fbb197dafb,verboo,ultra/deepseek-v4.1-flash,low,Abertura da sessão persistente,pronto,client_error,,,,25.789529584000036,,2026-10-16T18:16:21.116860-03:00
