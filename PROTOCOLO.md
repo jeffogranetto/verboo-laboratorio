@@ -74,7 +74,7 @@ não é prova de GPU paralela nem duração exata de conexões. Sobreposição d
 prova inferência física paralela. O laboratório audita sobreposição de seus próprios pedidos;
 a carga dos demais workspaces na conta é desconhecida. Todos os lotes completos, inclusive
 inválidos, aparecem no relatório com a ressalva. Mediana de duração usa somente concluídos;
-timeouts e denominadores permanecem visíveis. Vazão = concluídas / tempo total dos lotes válidos.
+timeouts e denominadores permanecem visíveis. Vazão apresentada = respostas corretas / tempo total dos lotes elegíveis, incluindo a espera por falhas.
 
 A ordem dos níveis varia dentro do modelo; todos os lotes GLM precedem DeepSeek. Comparação
 entre modelos fica confundida pelo horário. Não fazer teste de significância com três lotes,
@@ -192,3 +192,28 @@ não certifica tratamento de caixa alta. Outras funções não listadas ainda ex
 auditoria do avaliador antes de culpar o modelo.
 Melhoria proposta: separar rejeição do ambiente de avaliação de erro semântico,
 registrar versão do avaliador e reavaliar todas as respostas afetadas com o mesmo critério.
+
+
+## Resposta vazia com sucesso do cliente — 16/10, 18:09 BRT
+
+Uma tentativaSQLDeepSeekPro0813n4teveHTTP200,resultadois_error=falsee nenhum
+texto final ou delta de texto. Não havia consulta para avaliar. O status bruto
+foi preservado, e a ocorrência é falha de entrega, sem nota intelectual.
+Melhoria proposta e aplicada na apresentação: mostrar corretas por minuto,
+com duração integral do lote incluindo falhas; mediana somente das respostas
+corretas, claramente rotulada. Contagens de encerramentos do cliente continuam
+separadas e disponíveis. A alteração evita contar um sucesso vazio como produtividade.
+
+
+## Fechamento das medições
+
+256 tentativas registradas, todas encerradas. A concorrência nova teve80tentativas:
+60Flashcorretas; noSQL,GLM2/2isolado e6/8comquatro;DeepSeek0813,1/2isolado
+e5/8comquatro. Falhas SQL:quatro prazos excedidos,uma falha de acesso euma
+resposta vazia. Nenhuma consulta avaliável errou os dados das bases sintéticas.
+As16aberturas persistentes falharam(12acesso,4transporte/prazo), sem sessão
+utilizável. Houve31tentativasHTTPinternas nos quatro prazos; não são31prompts
+independentes. Esse diagnóstico é inconclusivo; não houve turnos persistentes medidos.
+A última auditoria de energia cobre todas as256tentativas: somente4foramafetadas
+pelo sono já identificado. A pausa externa permanece um relato do usuário,
+sem telemetria completa da conta. ClienteClaude2.1.280;Verboo0.15.38pinado.
