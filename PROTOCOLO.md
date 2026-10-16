@@ -19,12 +19,18 @@ dez modelos, com disponibilidade por plano. Não contratar nem ativar modelos fo
 ## Desenho
 
 - Bateria inicial: nove opções × seis tarefas, esforço padrão, sessões novas, ordem
-  pseudoaleatória fixa. Uma tentativa válida por combinação; erro de inicialização preservado.
+  pseudoaleatória fixa. Uma passagem por combinação; retomadas operacionais e erros de inicialização preservados.
 - Referências: Opus 5 médio e Opus 4.8 máximo, versões explícitas, nos seis casos;
   mais consulta SQL e limites de garantia distribuída. Opus 5 também faz o teste de arquivos.
 - Concorrência: quatro terminais Shell reais; GLM 5.3 Flash low e DeepSeek V4.1 Flash low;
   três rodadas de níveis 1/2/3/4 em ordens distintas, total de 60 chamadas.
   Um lote termina antes do seguinte. Outros testes Verboo deste laboratório ficam pausados.
+  A série inicial foi interrompida pelo sono do Mac. Uma série recuperada completa usa novos
+  identificadores; resultados das duas sessões não são agregados como se fossem uma só.
+- Concorrência de qualidade: após a série de geração, SQL em GLM 5.3 max e DeepSeek Pro
+  0813 max, dois lotes de cada nível 1 e 4 (ordens 1/4 e 4/1), total de 20 chamadas.
+  Mesmo enunciado e avaliador SQL; grupo/tarefa separados na análise. Plano acrescentado
+  antes de iniciar a etapa concorrente, em 16/10 às 16:05 BRT. Amostra exploratória.
 - Aprofundamento: GLM principal e Flash max nos seis casos e no teste de limites;
   DeepSeek Pro 0813 e Flash max em código e honestidade; nove opções no teste SQL;
   quatro opções prioritárias no teste de arquivos e numa segunda resposta independente de código.
@@ -79,6 +85,25 @@ Os casos são finitos e sintéticos, sem dados reais. Não certificam equivalên
 com Opus, segurança de produção, janela de 1 milhão de tokens ou capacidades multimodais.
 Custos estimados pela CLI não são cobrança da assinatura. Nenhuma nova contratação ou compra.
 
+## Suspensão do computador e retomada
+
+Jeff informou que viajou e manteve a tampa fechada por algumas horas. O log de energia do macOS
+confirmou suspensão de 12:02:33 a 15:22:44 BRT em 16/10/2026. Despertares de manutenção
+(DarkWake) não contam como retorno normal. Quatro execuções do lote inicial GLM Flash r3n4
+atravessaram esse intervalo; suas respostas permanecem no histórico, mas o lote sai da comparação
+de velocidade. Não atribuir esse atraso à Verboo. Novos testes começaram após a recuperação local.
+
+A auditoria compara intervalos de execução com uma captura do log de energia, refeita antes da
+publicação final. É uma checagem posterior, não um mecanismo que impede suspensão. Para próximas
+medições, manter o Mac aberto, na energia e conectado; nenhum ajuste global de energia foi alterado.
+
+## Referência externa para a comparação comercial
+
+Artificial Analysis Intelligence Index v4.3.2, consultado em 16/10/2026: GLM 5.3 Max e
+Opus 5 Medium exibem 45 pontos; GLM 5.3 Flash e Opus 4.8 Max, 42 pontos. A página consultada
+não explicita o esforço do Flash. São empates arredondados num índice composto, não equivalência
+em toda tarefa nem medição da infraestrutura Verboo. URLs exatas no relatório e no registro de fontes.
+
 ## Registro, revisão e publicação
 
 Jeff dispensou o time padrão neste laboratório. O Maestro conduz os experimentos;
@@ -95,3 +120,18 @@ Mac Mini, Jhou, Salto e produção não são ambientes deste experimento: não s
 Tempo de trabalho humano e espera do Maestro não foram cronometrados separadamente;
 duração dos processos é medida. Ajuda humana: definição de objetivo/escopo e correção da
 coordenação inicial; Jeff não forneceu respostas aos testes. Pareceres indicam versão/escopo.
+
+## Mudança na carga compartilhada — 16/10, 16:13 BRT
+
+Jeff informou que pediu a todos os outros workspaces que usavam GLM para pararem durante
+o laboratório. A mensagem é registrada como pedido de pausa relatado pelo usuário, não como
+confirmação técnica de ausência de qualquer chamada na conta. Execuções iniciadas antes e
+depois do registro ficam identificadas; as que já estavam em andamento pertencem à fase anterior.
+A nova rodada de concorrência ainda não havia começado.
+
+Para comparar esforço sem misturar essa mudança de condição, os casos GLM/GLM Flash padrão
+que só haviam sido tentados antes do registro ganham uma nova tentativa no aprofundamento
+(grupo `post-pause-default`). Os demais já terão tentativa inicial posterior ao pedido e não
+são duplicados por esse motivo. O plano gerado registra o total exato; a bateria original35
+permanece e esse complemento acrescenta no máximo12chamadas. Resultados antigos não são apagados.
+Sessões novas não provam ausência de cache do provedor, outra limitação das comparações de tempo.
