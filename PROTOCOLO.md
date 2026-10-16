@@ -135,3 +135,12 @@ que só haviam sido tentados antes do registro ganham uma nova tentativa no apro
 são duplicados por esse motivo. O plano gerado registra o total exato; a bateria original35
 permanece e esse complemento acrescenta no máximo12chamadas. Resultados antigos não são apagados.
 Sessões novas não provam ausência de cache do provedor, outra limitação das comparações de tempo.
+
+## Prazo ampliado, pré-registrado antes dos aprofundamentos
+
+Se código, SQL ou arquivos no esforço máximo atingir240s, o modelo prioritário recebe
+no máximo uma nova tentativa independente com600s, escolhendo código antes de SQL e arquivos.
+Aplica-se aos quatro modelos prioritários, no máximo4execuções extras, no grupo `long-budget`.
+A primeira tentativa continua como incompleta no prazo comum. A nova mede capacidade com
+mais espera, sem ser misturada ao desempenho em240s. Não implica que mais dez minutos
+sejam suficientes para toda tarefa. Regra registrada antes das respostas dessas etapas.
