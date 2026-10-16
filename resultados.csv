@@ -1,0 +1,14 @@
+execucao,modelo,esforco,grupo,tarefa,estado,passou,conteudo_correto,formato_correto,duracao_s,primeiro_texto_s,inicio_brt
+20261016T112400054429-glm-5.3-max-logica-r1,ultra/glm-5.3,max,single,logica,ok,True,True,True,113.491009334,107.431026667,2026-10-16T11:24:00.055254-03:00
+20261016T112416887270-glm-5.3-flash-default-honestidade-r1,ultra/glm-5.3-flash,,quality,honestidade,ok,True,True,True,69.924796625,68.904524042,2026-10-16T11:24:16.887734-03:00
+20261016T112526814210-mimo-v2.6-flash-default-dados-r1,ultra/mimo-v2.6-flash,,quality,dados,ok,False,True,False,60.25654899999999,58.654411999999994,2026-10-16T11:25:26.814555-03:00
+20261016T112627073528-deepseek-v4-pro-0813-default-honestidade-r1,ultra/deepseek-v4-pro-0813,,quality,honestidade,harness_error,,,,,,2026-10-16T11:26:27.074051-03:00
+20261016T112911765625-claude-opus-5-medium-logica-r1,claude-opus-5,medium,baseline,logica,ok,True,True,True,8.538938541,7.818434750000001,2026-10-16T11:29:11.766167-03:00
+20261016T113302681634-deepseek-v4-pro-0813-default-honestidade-r1,ultra/deepseek-v4-pro-0813,,quality,honestidade,ok,True,True,True,37.053334709,36.133115292,2026-10-16T11:33:02.682048-03:00
+20261016T113339736884-mimo-v2.6-flash-default-logica-r1,ultra/mimo-v2.6-flash,,quality,logica,running,,,,,,2026-10-16T11:33:39.737282-03:00
+20261016T113355922200-claude-opus-5-medium-codigo-r1,claude-opus-5,medium,baseline,codigo,ok,True,True,True,11.674491542,4.512384667,2026-10-16T11:33:55.922697-03:00
+20261016T113407645313-claude-opus-5-medium-contexto-r1,claude-opus-5,medium,baseline,contexto,ok,True,True,True,5.589353458,4.791891583,2026-10-16T11:34:07.645967-03:00
+20261016T113413236249-claude-opus-5-medium-dados-r1,claude-opus-5,medium,baseline,dados,ok,True,True,True,8.293366582999997,7.312058499999999,2026-10-16T11:34:13.236662-03:00
+20261016T113421531080-claude-opus-5-medium-honestidade-r1,claude-opus-5,medium,baseline,honestidade,ok,False,True,False,4.393989084000001,2.940557834,2026-10-16T11:34:21.531409-03:00
+20261016T113425926480-claude-opus-5-medium-revisao-r1,claude-opus-5,medium,baseline,revisao,ok,True,True,True,4.211084791000001,3.19708125,2026-10-16T11:34:25.926762-03:00
+20261016T113430138831-claude-opus-4-8-max-codigo-r1,claude-opus-4-8,max,baseline,codigo,running,,,,,,2026-10-16T11:34:30.139279-03:00

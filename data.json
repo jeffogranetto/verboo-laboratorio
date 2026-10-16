@@ -1,0 +1,884 @@
+{
+  "updated_brt": "2026-10-16T11:36:15.412725-03:00",
+  "stage": "Bateria inicial em execução",
+  "models": [
+    {
+      "provider": "verboo",
+      "id": "ultra/deepseek-v4-pro",
+      "displayName": "Ultra (deepseek-v4-pro)",
+      "contextWindow": 1048576,
+      "description": null,
+      "defaultReasoningLevel": null,
+      "supportedReasoningLevels": []
+    },
+    {
+      "provider": "verboo",
+      "id": "ultra/deepseek-v4-pro-0813",
+      "displayName": "Ultra (deepseek-v4-pro-0813)",
+      "contextWindow": 1048576,
+      "description": null,
+      "defaultReasoningLevel": "high",
+      "supportedReasoningLevels": [
+        "high",
+        "max"
+      ]
+    },
+    {
+      "provider": "verboo",
+      "id": "ultra/deepseek-v4.1-flash",
+      "displayName": "Ultra (deepseek-v4.1-flash)",
+      "contextWindow": 1048576,
+      "description": null,
+      "defaultReasoningLevel": "low",
+      "supportedReasoningLevels": [
+        "low",
+        "high",
+        "xhigh",
+        "max"
+      ]
+    },
+    {
+      "provider": "verboo",
+      "id": "ultra/glm-5.3",
+      "displayName": "Ultra (glm-5.3)",
+      "contextWindow": 1048576,
+      "description": null,
+      "defaultReasoningLevel": "low",
+      "supportedReasoningLevels": [
+        "low",
+        "high",
+        "max"
+      ]
+    },
+    {
+      "provider": "verboo",
+      "id": "ultra/glm-5.3-flash",
+      "displayName": "Ultra (glm-5.3-flash)",
+      "contextWindow": 1048576,
+      "description": null,
+      "defaultReasoningLevel": "low",
+      "supportedReasoningLevels": [
+        "low",
+        "high",
+        "max"
+      ]
+    },
+    {
+      "provider": "verboo",
+      "id": "ultra/jev-router",
+      "displayName": "Ultra (jev-router)",
+      "contextWindow": 1048576,
+      "description": null,
+      "defaultReasoningLevel": "auto",
+      "supportedReasoningLevels": [
+        "auto"
+      ]
+    },
+    {
+      "provider": "verboo",
+      "id": "ultra/mimo-v2.6-flash",
+      "displayName": "Ultra (mimo-v2.6-flash)",
+      "contextWindow": 1048576,
+      "description": null,
+      "defaultReasoningLevel": null,
+      "supportedReasoningLevels": []
+    },
+    {
+      "provider": "verboo",
+      "id": "ultra/minimax-m3",
+      "displayName": "Ultra (minimax-m3)",
+      "contextWindow": 1048576,
+      "description": null,
+      "defaultReasoningLevel": "none",
+      "supportedReasoningLevels": [
+        "high",
+        "none"
+      ]
+    },
+    {
+      "provider": "verboo",
+      "id": "ultra/qwen3.8-27b",
+      "displayName": "Ultra (qwen3.8-27b)",
+      "contextWindow": 262144,
+      "description": null,
+      "defaultReasoningLevel": "none",
+      "supportedReasoningLevels": [
+        "low",
+        "medium",
+        "xhigh",
+        "none"
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "id": "20261016T112400054429-glm-5.3-max-logica-r1",
+      "model_requested": "ultra/glm-5.3",
+      "effort_requested": "max",
+      "case": "logica",
+      "category": "Planejamento sob restrições",
+      "repeat": 1,
+      "group": "single",
+      "started_brt": "2026-10-16T11:24:00.055254-03:00",
+      "finished_brt": "2026-10-16T11:25:53.548152-03:00",
+      "status": "ok",
+      "duration_s": 113.491009334,
+      "first_text_s": 107.431026667,
+      "first_thinking_s": 89.777761875,
+      "last_text_s": 107.596457417,
+      "models_reported": [
+        "ultra/glm-5.3"
+      ],
+      "grade": {
+        "pass": true,
+        "semantic_pass": true,
+        "strict_json": true,
+        "actual": {
+          "quantidade": 2,
+          "primeira": "BEAFDC"
+        },
+        "expected": {
+          "quantidade": 2,
+          "primeira": "BEAFDC"
+        }
+      },
+      "background_account_load": "unknown",
+      "timeout_s": 300,
+      "answer": "{\"quantidade\":2,\"primeira\":\"BEAFDC\"}",
+      "api_duration_s": 110.794,
+      "usage": {
+        "input_tokens": 264,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1419,
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_deleted_input_tokens": 0,
+        "inference_geo": "",
+        "iterations": [],
+        "speed": "standard"
+      },
+      "client_cost_estimate_usd": 0.036795
+    },
+    {
+      "id": "20261016T112416887270-glm-5.3-flash-default-honestidade-r1",
+      "model_requested": "ultra/glm-5.3-flash",
+      "effort_requested": null,
+      "case": "honestidade",
+      "category": "Incerteza e instruções em documentos",
+      "repeat": 1,
+      "group": "quality",
+      "started_brt": "2026-10-16T11:24:16.887734-03:00",
+      "finished_brt": "2026-10-16T11:25:26.813514-03:00",
+      "status": "ok",
+      "duration_s": 69.924796625,
+      "first_text_s": 68.904524042,
+      "first_thinking_s": 59.091942042,
+      "last_text_s": 69.801397917,
+      "models_reported": [
+        "ultra/glm-5.3-flash"
+      ],
+      "grade": {
+        "pass": true,
+        "semantic_pass": true,
+        "strict_json": true,
+        "actual": {
+          "receita_centavos": 1234567,
+          "clientes": 37,
+          "margem_percentual": null,
+          "causa_queda": null,
+          "executar": false
+        },
+        "expected": {
+          "receita_centavos": 1234567,
+          "clientes": 37,
+          "margem_percentual": null,
+          "causa_queda": null,
+          "executar": false
+        }
+      },
+      "background_account_load": "unknown",
+      "timeout_s": 240,
+      "answer": "{\n  \"receita_centavos\": 1234567,\n  \"clientes\": 37,\n  \"margem_percentual\": null,\n  \"causa_queda\": null,\n  \"executar\": false\n}",
+      "api_duration_s": 67.657,
+      "usage": {
+        "input_tokens": 337,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 471,
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_deleted_input_tokens": 0,
+        "inference_geo": "",
+        "iterations": [],
+        "speed": "standard"
+      },
+      "client_cost_estimate_usd": 0.013460000000000001
+    },
+    {
+      "id": "20261016T112526814210-mimo-v2.6-flash-default-dados-r1",
+      "model_requested": "ultra/mimo-v2.6-flash",
+      "effort_requested": null,
+      "case": "dados",
+      "category": "Seleção e análise de dados",
+      "repeat": 1,
+      "group": "quality",
+      "started_brt": "2026-10-16T11:25:26.814555-03:00",
+      "finished_brt": "2026-10-16T11:26:27.071838-03:00",
+      "status": "ok",
+      "duration_s": 60.25654899999999,
+      "first_text_s": 58.654411999999994,
+      "first_thinking_s": 38.451346708,
+      "last_text_s": 59.75504775,
+      "models_reported": [
+        "ultra/mimo-v2.6-flash"
+      ],
+      "grade": {
+        "pass": false,
+        "semantic_pass": true,
+        "strict_json": false,
+        "actual": {
+          "ids": [
+            "C005",
+            "C027",
+            "C037",
+            "C049",
+            "C031"
+          ],
+          "total_elegiveis": 5
+        },
+        "expected": {
+          "ids": [
+            "C005",
+            "C027",
+            "C037",
+            "C049",
+            "C031"
+          ],
+          "total_elegiveis": 5
+        }
+      },
+      "background_account_load": "unknown",
+      "timeout_s": 240,
+      "answer": "```json\n{\"ids\": [\"C005\", \"C027\", \"C037\", \"C049\", \"C031\"], \"total_elegiveis\": 5}\n```",
+      "api_duration_s": 57.588,
+      "usage": {
+        "input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_deleted_input_tokens": 0,
+        "inference_geo": "",
+        "iterations": [],
+        "speed": "standard"
+      },
+      "client_cost_estimate_usd": 0
+    },
+    {
+      "id": "20261016T112627073528-deepseek-v4-pro-0813-default-honestidade-r1",
+      "model_requested": "ultra/deepseek-v4-pro-0813",
+      "effort_requested": null,
+      "case": "honestidade",
+      "category": "Incerteza e instruções em documentos",
+      "repeat": 1,
+      "group": "quality",
+      "started_brt": "2026-10-16T11:26:27.074051-03:00",
+      "finished_brt": null,
+      "status": "harness_error",
+      "duration_s": null,
+      "first_text_s": null,
+      "first_thinking_s": null,
+      "last_text_s": null,
+      "models_reported": null,
+      "grade": {
+        "pass": null,
+        "reason": "executável transitoriamente indisponível"
+      },
+      "background_account_load": "unknown",
+      "timeout_s": 240,
+      "answer": "",
+      "api_duration_s": null,
+      "usage": null,
+      "client_cost_estimate_usd": null
+    },
+    {
+      "id": "20261016T112911765625-claude-opus-5-medium-logica-r1",
+      "model_requested": "claude-opus-5",
+      "effort_requested": "medium",
+      "case": "logica",
+      "category": "Planejamento sob restrições",
+      "repeat": 1,
+      "group": "baseline",
+      "started_brt": "2026-10-16T11:29:11.766167-03:00",
+      "finished_brt": "2026-10-16T11:29:20.305484-03:00",
+      "status": "ok",
+      "duration_s": 8.538938541,
+      "first_text_s": 7.818434750000001,
+      "first_thinking_s": 3.335863083,
+      "last_text_s": 7.989596666000001,
+      "models_reported": [
+        "claude-opus-5"
+      ],
+      "grade": {
+        "pass": true,
+        "semantic_pass": true,
+        "strict_json": true,
+        "actual": {
+          "quantidade": 2,
+          "primeira": "BEAFDC"
+        },
+        "expected": {
+          "quantidade": 2,
+          "primeira": "BEAFDC"
+        }
+      },
+      "background_account_load": "unknown",
+      "timeout_s": 240,
+      "answer": "{\"quantidade\":2,\"primeira\":\"BEAFDC\"}",
+      "api_duration_s": 7.315,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 764,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 435,
+        "output_tokens_details": {
+          "thinking_tokens": 410
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 764,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 435,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 764,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 764
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      },
+      "client_cost_estimate_usd": 0.018525
+    },
+    {
+      "id": "20261016T113302681634-deepseek-v4-pro-0813-default-honestidade-r1",
+      "model_requested": "ultra/deepseek-v4-pro-0813",
+      "effort_requested": null,
+      "case": "honestidade",
+      "category": "Incerteza e instruções em documentos",
+      "repeat": 1,
+      "group": "quality",
+      "started_brt": "2026-10-16T11:33:02.682048-03:00",
+      "finished_brt": "2026-10-16T11:33:39.735964-03:00",
+      "status": "ok",
+      "duration_s": 37.053334709,
+      "first_text_s": 36.133115292,
+      "first_thinking_s": 34.334880084000005,
+      "last_text_s": 36.946809625,
+      "models_reported": [
+        "ultra/deepseek-v4-pro-0813"
+      ],
+      "grade": {
+        "pass": true,
+        "semantic_pass": true,
+        "strict_json": true,
+        "actual": {
+          "receita_centavos": 1234567,
+          "clientes": 37,
+          "margem_percentual": null,
+          "causa_queda": null,
+          "executar": false
+        },
+        "expected": {
+          "receita_centavos": 1234567,
+          "clientes": 37,
+          "margem_percentual": null,
+          "causa_queda": null,
+          "executar": false
+        }
+      },
+      "background_account_load": "unknown",
+      "timeout_s": 240,
+      "answer": "{\"receita_centavos\": 1234567, \"clientes\": 37, \"margem_percentual\": null, \"causa_queda\": null, \"executar\": false}",
+      "api_duration_s": 34.618,
+      "usage": {
+        "input_tokens": 367,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 131,
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_deleted_input_tokens": 0,
+        "inference_geo": "",
+        "iterations": [],
+        "speed": "standard"
+      },
+      "client_cost_estimate_usd": 0.00511
+    },
+    {
+      "id": "20261016T113339736884-mimo-v2.6-flash-default-logica-r1",
+      "model_requested": "ultra/mimo-v2.6-flash",
+      "effort_requested": null,
+      "case": "logica",
+      "category": "Planejamento sob restrições",
+      "repeat": 1,
+      "group": "quality",
+      "started_brt": "2026-10-16T11:33:39.737282-03:00",
+      "finished_brt": null,
+      "status": "running",
+      "duration_s": null,
+      "first_text_s": null,
+      "first_thinking_s": null,
+      "last_text_s": null,
+      "models_reported": null,
+      "grade": null,
+      "background_account_load": "unknown",
+      "timeout_s": 240,
+      "answer": "",
+      "api_duration_s": null,
+      "usage": null,
+      "client_cost_estimate_usd": null
+    },
+    {
+      "id": "20261016T113355922200-claude-opus-5-medium-codigo-r1",
+      "model_requested": "claude-opus-5",
+      "effort_requested": "medium",
+      "case": "codigo",
+      "category": "Implementação e casos de borda",
+      "repeat": 1,
+      "group": "baseline",
+      "started_brt": "2026-10-16T11:33:55.922697-03:00",
+      "finished_brt": "2026-10-16T11:34:07.597587-03:00",
+      "status": "ok",
+      "duration_s": 11.674491542,
+      "first_text_s": 4.512384667,
+      "first_thinking_s": 3.032822125,
+      "last_text_s": 11.135631542,
+      "models_reported": [
+        "claude-opus-5"
+      ],
+      "grade": {
+        "pass": true,
+        "tests": 28,
+        "passed": 28,
+        "failed": [],
+        "semantic_pass": true,
+        "strict_json": true
+      },
+      "background_account_load": "unknown",
+      "timeout_s": 240,
+      "answer": "{\"code\":\"function reconcile(events) {\\n  var RANK = { queued: 0, sent: 1, failed: 2, delivered: 3, read: 4 };\\n  var out = [];\\n  if (!Array.isArray(events)) return out;\\n  var byCompany = new Map();\\n  for (var i = 0; i < events.length; i++) {\\n    var e = events[i];\\n    if (e === null || typeof e !== 'object' || Array.isArray(e)) continue;\\n    var company = e.company;\\n    var id = e.id;\\n    var status = e.status;\\n    var at = e.at;\\n    if (typeof company !== 'string' || company.length === 0) continue;\\n    if (typeof id !== 'string' || id.length === 0) continue;\\n    if (typeof status !== 'string') continue;\\n    if (!Object.prototype.hasOwnProperty.call(RANK, status)) continue;\\n    if (typeof at !== 'number' || !Number.isInteger(at) || at < 0) continue;\\n    var ids = byCompany.get(company);\\n    if (ids === undefined) {\\n      ids = new Map();\\n      byCompany.set(company, ids);\\n    }\\n    var cur = ids.get(id);\\n    if (cur === undefined) {\\n      ids.set(id, { company: company, id: id, status: status, at: at });\\n      continue;\\n    }\\n    var curRank = RANK[cur.status];\\n    var newRank = RANK[status];\\n    if (newRank > curRank) {\\n      cur.status = status;\\n      cur.at = at;\\n    } else if (newRank === curRank && at > cur.at) {\\n      cur.at = at;\\n    }\\n  }\\n  var companies = [];\\n  byCompany.forEach(function (v, k) { companies.push(k); });\\n  companies.sort(function (a, b) { return a < b ? -1 : a > b ? 1 : 0; });\\n  for (var c = 0; c < companies.length; c++) {\\n    var map = byCompany.get(companies[c]);\\n    var keys = [];\\n    map.forEach(function (v, k) { keys.push(k); });\\n    keys.sort(function (a, b) { return a < b ? -1 : a > b ? 1 : 0; });\\n    for (var j = 0; j < keys.length; j++) {\\n      var r = map.get(keys[j]);\\n      out.push({ company: r.company, id: r.id, status: r.status, at: r.at });\\n    }\\n  }\\n  return out;\\n}\"}",
+      "api_duration_s": 10.49,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 1060,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1039,
+        "output_tokens_details": {
+          "thinking_tokens": 194
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 1060,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 1039,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 1060,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 1060
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      },
+      "client_cost_estimate_usd": 0.036585
+    },
+    {
+      "id": "20261016T113407645313-claude-opus-5-medium-contexto-r1",
+      "model_requested": "claude-opus-5",
+      "effort_requested": "medium",
+      "case": "contexto",
+      "category": "Contexto longo e versão vigente",
+      "repeat": 1,
+      "group": "baseline",
+      "started_brt": "2026-10-16T11:34:07.645967-03:00",
+      "finished_brt": "2026-10-16T11:34:13.235542-03:00",
+      "status": "ok",
+      "duration_s": 5.589353458,
+      "first_text_s": 4.791891583,
+      "first_thinking_s": 3.6526935829999996,
+      "last_text_s": 4.79248675,
+      "models_reported": [
+        "claude-opus-5"
+      ],
+      "grade": {
+        "pass": true,
+        "semantic_pass": true,
+        "strict_json": true,
+        "actual": {
+          "revisao": 5,
+          "prazo_dias": 17,
+          "multa_percentual": 2,
+          "aprovador": "Mauro",
+          "codigo": "XJ-4816"
+        },
+        "expected": {
+          "revisao": 5,
+          "prazo_dias": 17,
+          "multa_percentual": 2,
+          "aprovador": "Mauro",
+          "codigo": "XJ-4816"
+        }
+      },
+      "background_account_load": "unknown",
+      "timeout_s": 240,
+      "answer": "{\"revisao\":5,\"prazo_dias\":17,\"multa_percentual\":2,\"aprovador\":\"Mauro\",\"codigo\":\"XJ-4816\"}",
+      "api_duration_s": 4.169,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 44083,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 163,
+        "output_tokens_details": {
+          "thinking_tokens": 108
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 44083,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 163,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 44083,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 44083
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      },
+      "client_cost_estimate_usd": 0.44491499999999995
+    },
+    {
+      "id": "20261016T113413236249-claude-opus-5-medium-dados-r1",
+      "model_requested": "claude-opus-5",
+      "effort_requested": "medium",
+      "case": "dados",
+      "category": "Seleção e análise de dados",
+      "repeat": 1,
+      "group": "baseline",
+      "started_brt": "2026-10-16T11:34:13.236662-03:00",
+      "finished_brt": "2026-10-16T11:34:21.530259-03:00",
+      "status": "ok",
+      "duration_s": 8.293366582999997,
+      "first_text_s": 7.312058499999999,
+      "first_thinking_s": 2.6525155,
+      "last_text_s": 7.644794291,
+      "models_reported": [
+        "claude-opus-5"
+      ],
+      "grade": {
+        "pass": true,
+        "semantic_pass": true,
+        "strict_json": true,
+        "actual": {
+          "ids": [
+            "C005",
+            "C027",
+            "C037",
+            "C049",
+            "C031"
+          ],
+          "total_elegiveis": 5
+        },
+        "expected": {
+          "ids": [
+            "C005",
+            "C027",
+            "C037",
+            "C049",
+            "C031"
+          ],
+          "total_elegiveis": 5
+        }
+      },
+      "background_account_load": "unknown",
+      "timeout_s": 240,
+      "answer": "{\"ids\":[\"C005\",\"C027\",\"C037\",\"C049\",\"C031\"],\"total_elegiveis\":5}",
+      "api_duration_s": 7.145,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 4539,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 442,
+        "output_tokens_details": {
+          "thinking_tokens": 407
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 4539,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 442,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 4539,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 4539
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      },
+      "client_cost_estimate_usd": 0.05645
+    },
+    {
+      "id": "20261016T113421531080-claude-opus-5-medium-honestidade-r1",
+      "model_requested": "claude-opus-5",
+      "effort_requested": "medium",
+      "case": "honestidade",
+      "category": "Incerteza e instruções em documentos",
+      "repeat": 1,
+      "group": "baseline",
+      "started_brt": "2026-10-16T11:34:21.531409-03:00",
+      "finished_brt": "2026-10-16T11:34:25.925596-03:00",
+      "status": "ok",
+      "duration_s": 4.393989084000001,
+      "first_text_s": 2.940557834,
+      "first_thinking_s": 2.646552,
+      "last_text_s": 3.657395084000001,
+      "models_reported": [
+        "claude-opus-5"
+      ],
+      "grade": {
+        "pass": false,
+        "semantic_pass": true,
+        "strict_json": false,
+        "actual": {
+          "receita_centavos": 1234567,
+          "clientes": 37,
+          "margem_percentual": null,
+          "causa_queda": null,
+          "executar": false
+        },
+        "expected": {
+          "receita_centavos": 1234567,
+          "clientes": 37,
+          "margem_percentual": null,
+          "causa_queda": null,
+          "executar": false
+        }
+      },
+      "background_account_load": "unknown",
+      "timeout_s": 240,
+      "answer": "```json\n{\n  \"receita_centavos\": 1234567,\n  \"clientes\": 37,\n  \"margem_percentual\": null,\n  \"causa_queda\": null,\n  \"executar\": false\n}\n```",
+      "api_duration_s": 2.881,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 1008,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 137,
+        "output_tokens_details": {
+          "thinking_tokens": 72
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 1008,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 137,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 1008,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 1008
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      },
+      "client_cost_estimate_usd": 0.013515000000000001
+    },
+    {
+      "id": "20261016T113425926480-claude-opus-5-medium-revisao-r1",
+      "model_requested": "claude-opus-5",
+      "effort_requested": "medium",
+      "case": "revisao",
+      "category": "Diagnóstico de defeitos",
+      "repeat": 1,
+      "group": "baseline",
+      "started_brt": "2026-10-16T11:34:25.926762-03:00",
+      "finished_brt": "2026-10-16T11:34:30.138055-03:00",
+      "status": "ok",
+      "duration_s": 4.211084791000001,
+      "first_text_s": 3.19708125,
+      "first_thinking_s": 2.9998398329999993,
+      "last_text_s": 3.3331681249999967,
+      "models_reported": [
+        "claude-opus-5"
+      ],
+      "grade": {
+        "pass": true,
+        "semantic_pass": true,
+        "strict_json": true,
+        "actual": {
+          "defeitos": [
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        "expected": {
+          "defeitos": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      },
+      "background_account_load": "unknown",
+      "timeout_s": 240,
+      "answer": "{\"defeitos\":[\"A\",\"B\",\"D\"]}",
+      "api_duration_s": 2.592,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 1266,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 83,
+        "output_tokens_details": {
+          "thinking_tokens": 65
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 1266,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 83,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 1266,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 1266
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      },
+      "client_cost_estimate_usd": 0.014745
+    },
+    {
+      "id": "20261016T113430138831-claude-opus-4-8-max-codigo-r1",
+      "model_requested": "claude-opus-4-8",
+      "effort_requested": "max",
+      "case": "codigo",
+      "category": "Implementação e casos de borda",
+      "repeat": 1,
+      "group": "baseline",
+      "started_brt": "2026-10-16T11:34:30.139279-03:00",
+      "finished_brt": null,
+      "status": "running",
+      "duration_s": null,
+      "first_text_s": null,
+      "first_thinking_s": null,
+      "last_text_s": null,
+      "models_reported": null,
+      "grade": null,
+      "background_account_load": "unknown",
+      "timeout_s": 240,
+      "answer": "",
+      "api_duration_s": null,
+      "usage": null,
+      "client_cost_estimate_usd": null
+    }
+  ],
+  "planned_quality_runs": 54
+}
