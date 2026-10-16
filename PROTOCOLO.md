@@ -168,3 +168,27 @@ Mesmos PIDs, número do turno e contexto preservado são registrados. Histórico
 ordem fixa podem afetar a comparação. No lote de quatro, os turnos são4/3/2/2: contextos desiguais e pedidos repetidos impedem atribuir diferenças à concorrência; não misturar os números às sessões novas nem
 atribuir uma diferença exclusivamente à retirada de verificações de acesso. É diagnóstico
 curto do modo real de manter um terminal aberto, não certificação de disponibilidade.
+
+
+## Comparação comercial localizada — 16/10, 17:40 BRT
+
+Os dados públicos dos cartões em https://verboo.ai/pt contêm GLM5.3(Max)44,8
+versusOpus5(Medium)44,8 e GLM5.3Flash41,8 versusOpus4.8(Max)41,8.
+O cartão Flash não explicita Max. A própria página ressalva índice do modelo base
+e possível diferença por quantização: FlashFP8, GLM5.3quantização desconhecida.
+Isso substitui o estado anterior da pesquisa (comparação ainda não localizada).
+Não verifica o modelo efetivamente servido nem equivalência em toda tarefa.
+
+
+## Correção do avaliador SQL — 16/10, 17:44 BRT
+
+O avaliador SQL recusava a função pura LOWER, embora o enunciado não a proibisse.
+Isso produziu falso negativo na retomada do JEV. Após revisãoN1 independente,
+a função foi acrescentada à lista permitida; SELECT continua somente leitura,
+sem ATTACH/escrita/extensões, com limite de passos. As11respostasSQL concluídas
+foram reavaliadas:10mantiveram42/42;JEVpassou0→42/42. A nota anterior foi preservada.
+Prompt, bases e gabarito não mudaram. As bases usam status minúsculos; esse resultado
+não certifica tratamento de caixa alta. Outras funções não listadas ainda exigem
+auditoria do avaliador antes de culpar o modelo.
+Melhoria proposta: separar rejeição do ambiente de avaliação de erro semântico,
+registrar versão do avaliador e reavaliar todas as respostas afetadas com o mesmo critério.
