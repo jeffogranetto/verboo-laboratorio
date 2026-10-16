@@ -50,3 +50,8 @@ execucao,cliente,modelo,esforco,grupo,tarefa,estado,passou,conteudo_correto,form
 20261016T120234336321-glm-5.3-flash-low-velocidade-r3,verboo,ultra/glm-5.3-flash,low,concurrency,velocidade,ok,True,True,True,219.79090500000007,210.597695208,2026-10-16T12:02:34.344137-03:00
 20261016T120234336531-glm-5.3-flash-low-velocidade-r3,verboo,ultra/glm-5.3-flash,low,concurrency,velocidade,timeout,,,,243.5755087089999,,2026-10-16T12:02:34.343371-03:00
 20261016T120234336891-glm-5.3-flash-low-velocidade-r3,verboo,ultra/glm-5.3-flash,low,concurrency,velocidade,ok,True,True,True,223.2898399579999,215.64457466599993,2026-10-16T12:02:34.341849-03:00
+20261016T152817237971-mimo-v2.6-flash-default-logica-r1-ecfe49d524,verboo,ultra/mimo-v2.6-flash,,quality,logica,ok,False,True,False,138.210448375,137.700832333,2026-10-16T15:28:17.238458-03:00
+20261016T153035450368-minimax-m3-default-contexto-r1-d915742b1d,verboo,ultra/minimax-m3,,quality,contexto,ok,True,True,True,17.503659916999993,16.317126709000007,2026-10-16T15:30:35.451021-03:00
+20261016T153052956665-minimax-m3-default-codigo-r1-10bfaa9ae6,verboo,ultra/minimax-m3,,quality,codigo,ok,False,True,False,101.775245292,93.28436483299998,2026-10-16T15:30:52.957074-03:00
+20261016T153234781242-minimax-m3-default-logica-r1-ad85fd331e,verboo,ultra/minimax-m3,,quality,logica,ok,False,True,False,203.139641333,128.223766458,2026-10-16T15:32:34.781652-03:00
+20261016T153557922650-deepseek-v4-pro-0813-default-dados-r1-a5975c2ed5,verboo,ultra/deepseek-v4-pro-0813,,quality,dados,running,,,,,,2026-10-16T15:35:57.923295-03:00
