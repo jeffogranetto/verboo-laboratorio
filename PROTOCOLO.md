@@ -144,3 +144,27 @@ Aplica-se aos quatro modelos prioritários, no máximo4execuções extras, no gr
 A primeira tentativa continua como incompleta no prazo comum. A nova mede capacidade com
 mais espera, sem ser misturada ao desempenho em240s. Não implica que mais dez minutos
 sejam suficientes para toda tarefa. Regra registrada antes das respostas dessas etapas.
+
+## Recuperação operacional após falhas observadas no aprofundamento
+
+Erros intermitentes na verificação de assinatura/termos eHTTP499 apareceram antes da entrega,
+com chamadas vizinhas bem-sucedidas. Haverá no máximo12novas tentativas de240s, uma por
+modelo/esforço/tarefa/repetição, priorizando código, SQL, arquivos e contexto. Só entram
+os erros reconhecidos; concorrência fica fora dessa recuperação. Se já existir sucesso
+na mesma combinação, não repetir por esse motivo. Todas as primeiras tentativas permanecem.
+É uma amostra de recuperação priorizada, não estimativa imparcial de taxa de disponibilidade.
+Nenhum login ou aceite de termos será alterado ou contornado. Plano registrado antes dos retries.
+
+## Diagnóstico de sessões persistentes
+
+Após as rodadas de sessões novas, GLM Flash e DeepSeek Flash (low) terão um diagnóstico
+com quatro processos já abertos: inicialização com pergunta curta, depois uma rodada1/2/4.
+São22chamadas se nenhuma inicialização falhar, no máximo30com uma repetição por abertura
+que falhar. Falha persistente na abertura impede a rodada daquele modelo; falha num turno
+interrompe os níveis restantes dele. Não substituir sessão falha silenciosamente.
+
+Tempo vai da preparação local do turno até a resposta final; o processo continua aberto.
+Mesmos PIDs, número do turno e contexto preservado são registrados. Histórico/cache e
+ordem fixa podem afetar a comparação. No lote de quatro, os turnos são4/3/2/2: contextos desiguais e pedidos repetidos impedem atribuir diferenças à concorrência; não misturar os números às sessões novas nem
+atribuir uma diferença exclusivamente à retirada de verificações de acesso. É diagnóstico
+curto do modo real de manter um terminal aberto, não certificação de disponibilidade.
